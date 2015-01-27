@@ -13,7 +13,7 @@ var dgram = require('dgram');
 
 var lib = require('./lib');
 
-host = 'localhost';
+host = '0.0.0.0';
 port = 53;
 
 var server = dgram.createSocket('udp4');
